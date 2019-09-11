@@ -5,6 +5,7 @@
     width: 90vw;
     height: 30vh;
     margin: 0 auto;
+    display: none;
 }
 
 iframe {
@@ -23,4 +24,15 @@ iframe {
 
 .container-fluid{
     background-color: #2E8B57;
+}
+
+.videos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+iframe {
+    width: 300px;
+    height: 200px;  
 }
